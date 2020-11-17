@@ -12,7 +12,7 @@ public class InCloudDocAssRunner implements DocAssRunner {
 
     public String output = "";
 
-    public void setOutput(String value) {
+    public void buildOutput(String value) {
 
         this.output += value;
     }
@@ -22,7 +22,7 @@ public class InCloudDocAssRunner implements DocAssRunner {
 
         if (node instanceof Leaf) {
 
-            this.setOutput(node.getValue() + " ");
+            this.buildOutput(node.getValue() + " ");
 
         } else if (node instanceof Branch) {
 

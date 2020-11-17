@@ -23,6 +23,8 @@ public class JSonParser implements FileParser {
     @Override
     public Node buildTree(Object value) {
 
+        log.trace("json parser accessed");
+
         JsonObject mockedJsonObject = (JsonObject) JsonParser.parseString(mockedNode);
 
         /*
@@ -32,7 +34,12 @@ public class JSonParser implements FileParser {
         //return Branch.builder().nodes(Arrays.asList()).build();
          */
 
+
+
         JsonObject jsonObject = (JsonObject) JsonParser.parseString(value.toString());
+
+        //log.info(jsonObject.get("root").getAsString());
+
 
         RuntimeTypeAdapterFactory<Node> typeAdapterFactory = RuntimeTypeAdapterFactory
                 .of(Node.class, "Node.Node Type")
@@ -45,32 +52,6 @@ public class JSonParser implements FileParser {
         // processo de log do spring e como podemos centralizá-los
 
         return gsonObject.fromJson(jsonObject, Branch.class);
-    }
-
-    private Node buildNode(JsonElement element){
-        if(element.isJsonObject())
-            return buildObject(element);
-        else if(element.isJsonPrimitive())
-            //return buildPrimitive(element);
-        return null;
-        else if(element.isJsonArray())
-            return buildArray(element);
-        else
-            throw new RuntimeException("Not implemented");
-    }
-
-    private Node buildArray(JsonElement element) {
-
-        return null;
-    }
-
-    private void buildPrimitive(JsonElement element) {
-
-    }
-
-    private Node buildObject(JsonElement element) {
-
-        return null;
     }
 
 }

@@ -4,10 +4,12 @@ import com.concepts.spring.model.dto.FileDto;
 import com.concepts.spring.model.entity.Node;
 import com.concepts.spring.repository.TreeRepository;
 import com.concepts.spring.services.parser.ParserStrategy;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
+@Slf4j
 public class FileParserService {
 
     ParserStrategy parserStrategy;
@@ -15,10 +17,12 @@ public class FileParserService {
 
     public void parse(FileDto fileDto) {
 
+        log.trace("processing fileDto");
+
         Node node = parserStrategy.getStrategy(fileDto.getType()).buildTree(fileDto.getContent().toString());
+
         treeRepository.save(node);
-        System.out.println("Node salvo:");
-        System.out.println(node.toString());
+
     }
 
     @Autowired

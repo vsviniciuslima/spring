@@ -2,20 +2,22 @@ package com.concepts.spring.controller;
 
 import com.concepts.spring.model.dto.TreeRunnerDto;
 import com.concepts.spring.services.DocumentAssemblerService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 
 @RestController
 @RequestMapping("/docass")
+@Slf4j
 public class DocumentAssemblerController {
 
     DocumentAssemblerService assemblerService;
 
-    @PostMapping("/run")
-    public void run(@RequestBody TreeRunnerDto treeRunnerDto) {
-        assemblerService.run(treeRunnerDto);
+    @GetMapping("/run")
+    public String run(@RequestBody TreeRunnerDto treeRunnerDto) {
+        log.trace("document assembler runner started");
+        return assemblerService.run(treeRunnerDto);
     }
 
     @Autowired
