@@ -1,0 +1,32 @@
+2020-11-17 23:49:59,900 [INFO] com.concepts.spring.Application [main] Starting Application on Santana with PID 15132 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+2020-11-17 23:49:59,902 [DEBUG] com.concepts.spring.Application [main] Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+2020-11-17 23:49:59,902 [INFO] com.concepts.spring.Application [main] No active profile set, falling back to default profiles: default
+2020-11-17 23:50:00,686 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-11-17 23:50:00,696 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-17 23:50:00,697 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-17 23:50:00,769 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-17 23:50:00,769 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 837 ms
+2020-11-17 23:50:00,908 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 23:50:01,051 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-17 23:50:01,059 [INFO] com.concepts.spring.Application [main] Started Application in 1.411 seconds (JVM running for 1.913)
+2020-11-17 23:50:52.996  INFO 17204 --- [main] com.concepts.spring.Application          : Starting Application on Santana with PID 17204 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+2020-11-17 23:50:52.997 DEBUG 17204 --- [main] com.concepts.spring.Application          : Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+2020-11-17 23:50:52.998  INFO 17204 --- [main] com.concepts.spring.Application          : No active profile set, falling back to default profiles: default
+2020-11-17 23:50:53.694  INFO 17204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-17 23:50:53.703  INFO 17204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-17 23:50:53.703  INFO 17204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-17 23:50:53.778  INFO 17204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-17 23:50:53.778  INFO 17204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 746 ms
+2020-11-17 23:50:53.916  INFO 17204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 23:50:54.061  INFO 17204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-17 23:50:54.068  INFO 17204 --- [main] com.concepts.spring.Application          : Started Application in 1.307 seconds (JVM running for 1.737)
+2020-11-17 23:51:32.446  INFO 17204 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-17 23:51:32.448  INFO 17204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-17 23:51:32.453  INFO 17204 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-11-17 23:51:32.527 TRACE 17204 --- [http-nio-8080-exec-3] c.c.spring.controller.ParserController   : file dto ingested
+2020-11-17 23:51:32.527 TRACE 17204 --- [http-nio-8080-exec-3] c.c.spring.services.FileParserService    : processing fileDto
+2020-11-17 23:51:32.528 TRACE 17204 --- [http-nio-8080-exec-3] c.c.spring.services.parser.JSonParser    : json parser accessed
+2020-11-17 23:51:32.544 TRACE 17204 --- [http-nio-8080-exec-3] c.c.s.repository.MemoryFileRepository    : node saved
+2020-11-17 23:51:32.544  INFO 17204 --- [http-nio-8080-exec-3] c.c.s.repository.MemoryFileRepository    : saved node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-17 23:51:42.895 TRACE 17204 --- [http-nio-8080-exec-4] c.c.s.c.DocumentAssemblerController      : document assembler runner started
+2020-11-17 23:51:42.897  INFO 17204 --- [http-nio-8080-exec-4] c.c.s.services.DocumentAssemblerService  : processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4

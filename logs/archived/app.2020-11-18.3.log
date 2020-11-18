@@ -1,0 +1,31 @@
+2020-11-18 00:31:43,199 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-9] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:45,146 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-10] document assembler runner started
+2020-11-18 00:31:45,146 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-10] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:45,830 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-1] document assembler runner started
+2020-11-18 00:31:45,830 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-1] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:46,476 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-2] document assembler runner started
+2020-11-18 00:31:46,476 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-2] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:47,032 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-3] document assembler runner started
+2020-11-18 00:31:47,033 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-3] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:47,781 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-4] document assembler runner started
+2020-11-18 00:31:47,782 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-4] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:48,468 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-5] document assembler runner started
+2020-11-18 00:31:48,469 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-5] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:48,918 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-6] document assembler runner started
+2020-11-18 00:31:48,918 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-6] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:49,499 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-7] document assembler runner started
+2020-11-18 00:31:49,499 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-7] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:50,014 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-8] document assembler runner started
+2020-11-18 00:31:50,014 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-8] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:50,544 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-9] document assembler runner started
+2020-11-18 00:31:50,544 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-9] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:51,101 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-10] document assembler runner started
+2020-11-18 00:31:51,101 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-10] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:31:51,597 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-1] document assembler runner started
+2020-11-18 00:31:51,597 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-1] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+2020-11-18 00:32:02,943 TRACE com.concepts.spring.controller.DocumentAssemblerController [http-nio-8080-exec-2] document assembler runner started
+2020-11-18 00:32:02,943 INFO com.concepts.spring.services.DocumentAssemblerService [http-nio-8080-exec-2] processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+[2m2020-11-18 00:33:49.766[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.concepts.spring.Application         [0;39m [2m:[0;39m Starting Application on Santana with PID 10312 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+[2m2020-11-18 00:33:49.767[0;39m [32mDEBUG[0;39m [35m10312[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.concepts.spring.Application         [0;39m [2m:[0;39m Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+[2m2020-11-18 00:33:49.768[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.concepts.spring.Application         [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-11-18 00:33:50.821[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.concepts.spring.Application         [0;39m [2m:[0;39m Started Application in 1.267 seconds (JVM running for 1.785)
