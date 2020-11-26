@@ -1,11 +1,1259 @@
-[2m2020-11-18 00:33:58.219[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.spring.controller.ParserController  [0;39m [2m:[0;39m file dto ingested
-[2m2020-11-18 00:33:58.224[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.spring.services.FileParserService   [0;39m [2m:[0;39m processing fileDto
-[2m2020-11-18 00:33:58.225[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.spring.services.parser.JSonParser   [0;39m [2m:[0;39m json parser accessed
-[2m2020-11-18 00:33:58.244[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.s.repository.MemoryFileRepository   [0;39m [2m:[0;39m node saved
-[2m2020-11-18 00:33:58.245[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.s.repository.MemoryFileRepository   [0;39m [2m:[0;39m saved node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
-[2m2020-11-18 00:34:02.251[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.c.s.c.DocumentAssemblerController     [0;39m [2m:[0;39m document assembler runner started
-[2m2020-11-18 00:34:02.252[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.c.s.services.DocumentAssemblerService [0;39m [2m:[0;39m processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
-[2m2020-11-18 00:34:03.442[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.c.s.c.DocumentAssemblerController     [0;39m [2m:[0;39m document assembler runner started
-[2m2020-11-18 00:34:03.443[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.c.s.services.DocumentAssemblerService [0;39m [2m:[0;39m processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
-[2m2020-11-18 00:34:04.248[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.c.s.c.DocumentAssemblerController     [0;39m [2m:[0;39m document assembler runner started
-[2m2020-11-18 00:34:04.249[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.c.s.services.DocumentAssemblerService [0;39m [2m:[0;39m processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+506  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 10024 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+512  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+512  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1748 [main] INFO  com.concepts.spring.Application - Started Application in 1.494 seconds (JVM running for 2.253)
+7407 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+7407 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+7408 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+7417 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+7417 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+15441 [http-nio-8080-exec-4] TRACE c.c.s.controller.ParserController - file dto ingested
+15442 [http-nio-8080-exec-4] TRACE c.c.s.services.FileParserService - processing fileDto
+15442 [http-nio-8080-exec-4] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+420  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 16276 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+422  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+422  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1600 [main] INFO  com.concepts.spring.Application - Started Application in 1.403 seconds (JVM running for 1.933)
+4770 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+4770 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+4771 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+464  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 4504 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+466  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+467  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2104 [main] INFO  com.concepts.spring.Application - Started Application in 1.898 seconds (JVM running for 2.504)
+2478 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+2478 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+2478 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+431  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 13644 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+434  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+434  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1757 [main] INFO  com.concepts.spring.Application - Started Application in 1.549 seconds (JVM running for 2.077)
+448  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 5900 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+450  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+451  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1704 [main] INFO  com.concepts.spring.Application - Started Application in 1.49 seconds (JVM running for 2.054)
+2229 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+2229 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+2230 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+403  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 14628 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+405  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+406  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1605 [main] INFO  com.concepts.spring.Application - Started Application in 1.408 seconds (JVM running for 1.887)
+4470 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+4470 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+4471 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+518  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 10892 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+520  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+521  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1784 [main] INFO  com.concepts.spring.Application - Started Application in 1.562 seconds (JVM running for 2.095)
+5112 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+5112 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+5113 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+406  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 17240 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+409  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+410  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1624 [main] INFO  com.concepts.spring.Application - Started Application in 1.429 seconds (JVM running for 1.937)
+5209 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+5210 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+5212 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+438  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 11328 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+440  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+440  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1622 [main] INFO  com.concepts.spring.Application - Started Application in 1.386 seconds (JVM running for 1.913)
+3461 [http-nio-8080-exec-3] TRACE c.c.s.controller.ParserController - file dto ingested
+3463 [http-nio-8080-exec-3] TRACE c.c.s.services.FileParserService - processing fileDto
+3464 [http-nio-8080-exec-3] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+408  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 3436 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+410  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+410  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1698 [main] INFO  com.concepts.spring.Application - Started Application in 1.512 seconds (JVM running for 1.987)
+544  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 11160 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+548  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+550  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2178 [main] INFO  com.concepts.spring.Application - Started Application in 1.927 seconds (JVM running for 2.53)
+4458 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+4459 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+4459 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+421  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 12284 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+423  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+424  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1543 [main] INFO  com.concepts.spring.Application - Started Application in 1.344 seconds (JVM running for 1.838)
+6185 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+6186 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+6186 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+10394 [http-nio-8080-exec-4] TRACE c.c.s.controller.ParserController - file dto ingested
+10395 [http-nio-8080-exec-4] TRACE c.c.s.services.FileParserService - processing fileDto
+10395 [http-nio-8080-exec-4] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+10402 [http-nio-8080-exec-4] TRACE c.c.s.r.MemoryFileRepository - node saved
+10403 [http-nio-8080-exec-4] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+15916 [http-nio-8080-exec-5] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+15917 [http-nio-8080-exec-5] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+18126 [http-nio-8080-exec-6] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+18126 [http-nio-8080-exec-6] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+18811 [http-nio-8080-exec-7] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+18811 [http-nio-8080-exec-7] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+1118 [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 19280 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+1121 [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+1122 [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2677 [main] INFO  com.concepts.spring.Application - Started Application in 2.099 seconds (JVM running for 3.803)
+356220 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+356220 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+356222 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+484  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 18984 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+485  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+486  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1907 [main] INFO  com.concepts.spring.Application - Started Application in 1.683 seconds (JVM running for 2.213)
+6773 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+6773 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+6774 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+398  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 7888 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+400  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+400  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1699 [main] INFO  com.concepts.spring.Application - Started Application in 1.508 seconds (JVM running for 2.002)
+3640 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+3641 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+3641 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+3651 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.concepts.spring.exceptions.InvalidFileParserContentException: O JSon do conteúdo é inválido] with root cause
+com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 1118 path $.WRITE_FILE
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1564)
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:531)
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:426)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:700)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:723)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:698)
+	at com.google.gson.internal.Streams.parse(Streams.java:48)
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:85)
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:60)
+	at com.google.gson.JsonParser.parseString(JsonParser.java:47)
+	at com.concepts.spring.services.parser.JSonParser.buildTree(JSonParser.java:30)
+	at com.concepts.spring.services.FileParserService.parse(FileParserService.java:23)
+	at com.concepts.spring.controller.ParserController.ingestJSon(ParserController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+465  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 12500 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+467  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+468  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1672 [main] INFO  com.concepts.spring.Application - Started Application in 1.45 seconds (JVM running for 2.032)
+3138 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+3138 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+3140 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+616  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 13916 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+619  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+620  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1971 [main] INFO  com.concepts.spring.Application - Started Application in 1.619 seconds (JVM running for 2.27)
+2157 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+2157 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+2158 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+607  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 2520 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+609  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+610  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1869 [main] INFO  com.concepts.spring.Application - Started Application in 1.571 seconds (JVM running for 2.165)
+3390 [http-nio-8080-exec-3] TRACE c.c.s.controller.ParserController - file dto ingested
+3390 [http-nio-8080-exec-3] TRACE c.c.s.services.FileParserService - processing fileDto
+3391 [http-nio-8080-exec-3] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+459  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 18408 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+461  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+461  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1953 [main] INFO  com.concepts.spring.Application - Started Application in 1.736 seconds (JVM running for 2.252)
+2140 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+2140 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+2141 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+407  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 17936 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+409  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+409  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1570 [main] INFO  com.concepts.spring.Application - Started Application in 1.375 seconds (JVM running for 1.849)
+5454 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+5455 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+5455 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+5461 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+5462 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+535  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 10148 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+537  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+538  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1872 [main] INFO  com.concepts.spring.Application - Started Application in 1.609 seconds (JVM running for 2.231)
+2066 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+2066 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+2067 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+2074 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+2075 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+6293 [http-nio-8080-exec-3] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+6295 [http-nio-8080-exec-3] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+413  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 1564 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+415  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+416  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1546 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public java.util.Map com.concepts.spring.exceptions.ApiExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.concepts.spring.Application.main(Application.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public java.util.Map com.concepts.spring.exceptions.ApiExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public java.util.Map com.concepts.spring.exceptions.ApiExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:101)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:65)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:281)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:258)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1007)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:949)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 21 common frames omitted
+400  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 17536 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+401  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+402  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1419 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public java.util.Map com.concepts.spring.exceptions.ApiExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.concepts.spring.Application.main(Application.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public java.util.Map com.concepts.spring.exceptions.ApiExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public java.util.Map com.concepts.spring.exceptions.ApiExceptionHandler.handleValidationExceptions(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:101)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:65)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:281)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:258)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1007)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:949)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 21 common frames omitted
+427  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 7924 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+429  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+430  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1506 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.concepts.spring.exceptions.ApiExceptionHandler.handleInvalidFileParserContentException(com.concepts.spring.exceptions.InvalidFileParserContentException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.concepts.spring.Application.main(Application.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.concepts.spring.exceptions.ApiExceptionHandler.handleInvalidFileParserContentException(com.concepts.spring.exceptions.InvalidFileParserContentException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public org.springframework.http.ResponseEntity com.concepts.spring.exceptions.ApiExceptionHandler.handleInvalidFileParserContentException(com.concepts.spring.exceptions.InvalidFileParserContentException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:101)
+	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:65)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:281)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:258)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1007)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:949)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 21 common frames omitted
+407  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 11856 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+410  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+410  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1481 [main] INFO  com.concepts.spring.Application - Started Application in 1.283 seconds (JVM running for 1.764)
+7450 [http-nio-8080-exec-2] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+7450 [http-nio-8080-exec-2] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+7457 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.store" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.store" is null
+	at com.concepts.spring.repository.MemoryFileRepository.find(MemoryFileRepository.java:31)
+	at com.concepts.spring.services.DocumentAssemblerService.run(DocumentAssemblerService.java:22)
+	at com.concepts.spring.controller.DocumentAssemblerController.run(DocumentAssemblerController.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+421  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 18184 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+423  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+424  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1507 [main] INFO  com.concepts.spring.Application - Started Application in 1.297 seconds (JVM running for 1.8)
+4720 [http-nio-8080-exec-1] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+4721 [http-nio-8080-exec-1] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+4729 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.concepts.spring.exceptions.RequestedNodeNotFoundException: Nó solicitado não encontrado] with root cause
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.store" is null
+	at com.concepts.spring.repository.MemoryFileRepository.find(MemoryFileRepository.java:31)
+	at com.concepts.spring.services.DocumentAssemblerService.run(DocumentAssemblerService.java:25)
+	at com.concepts.spring.controller.DocumentAssemblerController.run(DocumentAssemblerController.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+401  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 8236 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+403  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+404  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1493 [main] INFO  com.concepts.spring.Application - Started Application in 1.298 seconds (JVM running for 1.772)
+8683 [http-nio-8080-exec-2] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+8684 [http-nio-8080-exec-2] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+8689 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.concepts.spring.exceptions.RequestedNodeNotFoundException: Nó solicitado não encontrado] with root cause
+com.concepts.spring.exceptions.RequestedNodeNotFoundException: Nó solicitado não encontrado
+	at com.concepts.spring.services.DocumentAssemblerService.run(DocumentAssemblerService.java:27)
+	at com.concepts.spring.controller.DocumentAssemblerController.run(DocumentAssemblerController.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+598  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 7540 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+601  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+602  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2304 [main] INFO  com.concepts.spring.Application - Started Application in 2.035 seconds (JVM running for 2.697)
+7904 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+7904 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+7905 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+438  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 19592 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+440  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+440  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2106 [main] INFO  com.concepts.spring.Application - Started Application in 1.897 seconds (JVM running for 2.404)
+4851 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+4851 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+4852 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+581  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 20176 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+584  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+585  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2158 [main] INFO  com.concepts.spring.Application - Started Application in 1.887 seconds (JVM running for 2.574)
+2906 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+2906 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+2907 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+476  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 12920 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+478  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+478  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2225 [main] INFO  com.concepts.spring.Application - Started Application in 2.009 seconds (JVM running for 2.564)
+2967 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+2967 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+2968 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+585  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 17148 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+588  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+589  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2169 [main] INFO  com.concepts.spring.Application - Started Application in 1.909 seconds (JVM running for 2.579)
+5389 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+5389 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+5392 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+463  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 3268 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+464  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+465  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2254 [main] INFO  com.concepts.spring.Application - Started Application in 2.034 seconds (JVM running for 2.574)
+9071 [http-nio-8080-exec-2] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+9071 [http-nio-8080-exec-2] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+898  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 16652 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+902  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+902  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2925 [main] INFO  com.concepts.spring.Application - Started Application in 2.603 seconds (JVM running for 3.292)
+3546 [http-nio-8080-exec-1] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+3547 [http-nio-8080-exec-1] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+25489 [http-nio-8080-exec-3] TRACE c.c.s.controller.ParserController - file dto ingested
+25489 [http-nio-8080-exec-3] TRACE c.c.s.services.FileParserService - processing fileDto
+25490 [http-nio-8080-exec-3] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+28710 [http-nio-8080-exec-7] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+28710 [http-nio-8080-exec-7] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+37375 [http-nio-8080-exec-5] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+37376 [http-nio-8080-exec-5] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+40590 [http-nio-8080-exec-9] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+40591 [http-nio-8080-exec-9] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+439  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 14740 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+441  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+442  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1699 [main] INFO  com.concepts.spring.Application - Started Application in 1.492 seconds (JVM running for 2.021)
+59785 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+59786 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+59786 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+67307 [http-nio-8080-exec-4] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+67310 [http-nio-8080-exec-4] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+788  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 16456 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+791  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+792  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2501 [main] INFO  com.concepts.spring.Application - Started Application in 2.274 seconds (JVM running for 2.841)
+3680 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+3681 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+3681 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+11464 [http-nio-8080-exec-4] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+11465 [http-nio-8080-exec-4] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+499  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 2336 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+504  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+506  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1815 [main] INFO  com.concepts.spring.Application - Started Application in 1.577 seconds (JVM running for 2.156)
+6258 [http-nio-8080-exec-4] TRACE c.c.s.controller.ParserController - file dto ingested
+6259 [http-nio-8080-exec-4] TRACE c.c.s.services.FileParserService - processing fileDto
+6260 [http-nio-8080-exec-4] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+9282 [http-nio-8080-exec-7] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+9283 [http-nio-8080-exec-7] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+30643 [http-nio-8080-exec-6] TRACE c.c.s.controller.ParserController - file dto ingested
+30644 [http-nio-8080-exec-6] TRACE c.c.s.services.FileParserService - processing fileDto
+30644 [http-nio-8080-exec-6] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+30655 [http-nio-8080-exec-6] TRACE c.c.s.r.MemoryFileRepository - node saved
+30655 [http-nio-8080-exec-6] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+38936 [http-nio-8080-exec-3] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+38937 [http-nio-8080-exec-3] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb87
+38954 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.concepts.spring.model.entity.Node.acceptVisitor(com.concepts.spring.services.documentAssembler.runner.DocAssRunner)" because "node" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.concepts.spring.model.entity.Node.acceptVisitor(com.concepts.spring.services.documentAssembler.runner.DocAssRunner)" because "node" is null
+	at com.concepts.spring.services.DocumentAssemblerService.run(DocumentAssemblerService.java:32)
+	at com.concepts.spring.controller.DocumentAssemblerController.run(DocumentAssemblerController.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+73620 [http-nio-8080-exec-8] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+73621 [http-nio-8080-exec-8] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+78234 [http-nio-8080-exec-9] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+78235 [http-nio-8080-exec-9] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb975
+78235 [http-nio-8080-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.concepts.spring.model.entity.Node.acceptVisitor(com.concepts.spring.services.documentAssembler.runner.DocAssRunner)" because "node" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.concepts.spring.model.entity.Node.acceptVisitor(com.concepts.spring.services.documentAssembler.runner.DocAssRunner)" because "node" is null
+	at com.concepts.spring.services.DocumentAssemblerService.run(DocumentAssemblerService.java:32)
+	at com.concepts.spring.controller.DocumentAssemblerController.run(DocumentAssemblerController.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+507  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 5384 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+511  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+511  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1879 [main] INFO  com.concepts.spring.Application - Started Application in 1.643 seconds (JVM running for 2.232)
+587  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 16008 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+590  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+591  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2100 [main] INFO  com.concepts.spring.Application - Started Application in 1.847 seconds (JVM running for 2.548)
+6011 [http-nio-8080-exec-3] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+6012 [http-nio-8080-exec-3] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+13715 [http-nio-8080-exec-4] TRACE c.c.s.controller.ParserController - file dto ingested
+13716 [http-nio-8080-exec-4] TRACE c.c.s.services.FileParserService - processing fileDto
+13717 [http-nio-8080-exec-4] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+13733 [http-nio-8080-exec-4] TRACE c.c.s.r.MemoryFileRepository - node saved
+13733 [http-nio-8080-exec-4] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+32505 [http-nio-8080-exec-2] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+32506 [http-nio-8080-exec-2] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb99
+32513 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.concepts.spring.model.entity.Node.acceptVisitor(com.concepts.spring.services.documentAssembler.runner.DocAssRunner)" because "node" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.concepts.spring.model.entity.Node.acceptVisitor(com.concepts.spring.services.documentAssembler.runner.DocAssRunner)" because "node" is null
+	at com.concepts.spring.services.DocumentAssemblerService.run(DocumentAssemblerService.java:32)
+	at com.concepts.spring.controller.DocumentAssemblerController.run(DocumentAssemblerController.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+695  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 13216 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+698  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+699  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2506 [main] INFO  com.concepts.spring.Application - Started Application in 2.133 seconds (JVM running for 4.042)
+8601 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+8601 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+8605 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+8647 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+8647 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+12118 [http-nio-8080-exec-3] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+12118 [http-nio-8080-exec-3] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb99
+136390 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.concepts.spring.model.entity.Node.acceptVisitor(com.concepts.spring.services.documentAssembler.runner.DocAssRunner)" because "node" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.concepts.spring.model.entity.Node.acceptVisitor(com.concepts.spring.services.documentAssembler.runner.DocAssRunner)" because "node" is null
+	at com.concepts.spring.services.DocumentAssemblerService.run(DocumentAssemblerService.java:32)
+	at com.concepts.spring.controller.DocumentAssemblerController.run(DocumentAssemblerController.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+526  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 15892 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+528  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+529  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2288 [main] INFO  com.concepts.spring.Application - Started Application in 2.025 seconds (JVM running for 2.714)
+8772 [http-nio-8080-exec-2] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+8773 [http-nio-8080-exec-2] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb99
+22054 [http-nio-8080-exec-3] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+22055 [http-nio-8080-exec-3] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2e56b99
+803  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 15784 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+807  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+808  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3024 [main] INFO  com.concepts.spring.Application - Started Application in 2.63 seconds (JVM running for 3.552)
+4903 [http-nio-8080-exec-1] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+4903 [http-nio-8080-exec-1] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2e56b99
+494  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 11660 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+496  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+496  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2183 [main] INFO  com.concepts.spring.Application - Started Application in 1.965 seconds (JVM running for 2.522)
+6119 [http-nio-8080-exec-2] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+6120 [http-nio-8080-exec-2] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2e56b99
+15584 [http-nio-8080-exec-3] TRACE c.c.s.controller.ParserController - file dto ingested
+15585 [http-nio-8080-exec-3] TRACE c.c.s.services.FileParserService - processing fileDto
+15587 [http-nio-8080-exec-3] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+15596 [http-nio-8080-exec-3] TRACE c.c.s.r.MemoryFileRepository - node saved
+15597 [http-nio-8080-exec-3] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+20735 [http-nio-8080-exec-4] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+20735 [http-nio-8080-exec-4] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2e56b99
+645  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 7592 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+654  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+656  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3215 [main] INFO  com.concepts.spring.Application - Started Application in 2.947 seconds (JVM running for 3.625)
+570  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 11368 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+578  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+579  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2737 [main] INFO  com.concepts.spring.Application - Started Application in 2.51 seconds (JVM running for 3.081)
+27686 [http-nio-8080-exec-4] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+27687 [http-nio-8080-exec-4] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2e56b99
+34340 [http-nio-8080-exec-5] TRACE c.c.s.controller.ParserController - file dto ingested
+34340 [http-nio-8080-exec-5] TRACE c.c.s.services.FileParserService - processing fileDto
+34343 [http-nio-8080-exec-5] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+34358 [http-nio-8080-exec-5] TRACE c.c.s.r.MemoryFileRepository - node saved
+34359 [http-nio-8080-exec-5] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+37531 [http-nio-8080-exec-6] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+37531 [http-nio-8080-exec-6] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2e56b99
+51111 [http-nio-8080-exec-3] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+51112 [http-nio-8080-exec-3] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2e56b99
+60166 [http-nio-8080-exec-7] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+60167 [http-nio-8080-exec-7] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2e56b99
+100508 [http-nio-8080-exec-8] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+100508 [http-nio-8080-exec-8] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+771  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 9944 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+774  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+775  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2560 [main] INFO  com.concepts.spring.Application - Started Application in 2.244 seconds (JVM running for 3.206)
+6214 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+6215 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+6216 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+6236 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+6237 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+490  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 14572 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+492  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+493  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1725 [main] INFO  com.concepts.spring.Application - Started Application in 1.502 seconds (JVM running for 2.056)
+5636 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+5637 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+5640 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+5648 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+5648 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+737  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 15980 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+740  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+741  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2746 [main] INFO  com.concepts.spring.Application - Started Application in 2.358 seconds (JVM running for 3.461)
+10100 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+10101 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+10102 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+10128 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+10128 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+532  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 16520 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+534  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+535  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2218 [main] INFO  com.concepts.spring.Application - Started Application in 1.964 seconds (JVM running for 2.586)
+650  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 2468 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+652  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+653  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+6255 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+6256 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+6258 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+6272 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+6273 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+3418 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+468  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 20044 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+472  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+474  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1802 [main] INFO  com.concepts.spring.Application - Started Application in 1.573 seconds (JVM running for 2.124)
+4612 [http-nio-8080-exec-4] TRACE c.c.s.controller.ParserController - file dto ingested
+4612 [http-nio-8080-exec-4] TRACE c.c.s.services.FileParserService - processing fileDto
+4614 [http-nio-8080-exec-4] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+4628 [http-nio-8080-exec-4] TRACE c.c.s.r.MemoryFileRepository - node saved
+4629 [http-nio-8080-exec-4] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+446  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 13484 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+448  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+448  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2179 [main] INFO  com.concepts.spring.Application - Started Application in 1.967 seconds (JVM running for 2.479)
+4723 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+4723 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+4724 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+4730 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+4730 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+705  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 1948 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+707  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+708  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2791 [main] INFO  com.concepts.spring.Application - Started Application in 2.473 seconds (JVM running for 3.465)
+561  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 3776 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+564  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+564  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2426 [main] INFO  com.concepts.spring.Application - Started Application in 2.163 seconds (JVM running for 2.844)
+702  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 17844 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+706  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+707  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3232 [main] INFO  com.concepts.spring.Application - Started Application in 2.886 seconds (JVM running for 3.757)
+4435 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+4435 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+4437 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+4468 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+4468 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+1096 [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 8608 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+1099 [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+1100 [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3603 [main] INFO  com.concepts.spring.Application - Started Application in 3.101 seconds (JVM running for 4.261)
+6745 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+6746 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+6750 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+6772 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+6773 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+675  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 2304 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+677  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+678  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3191 [main] INFO  com.concepts.spring.Application - Started Application in 2.876 seconds (JVM running for 3.755)
+4593 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+4593 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+4595 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+4632 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+4632 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+508  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 9340 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+512  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+512  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2393 [main] INFO  com.concepts.spring.Application - Started Application in 2.154 seconds (JVM running for 2.727)
+3552 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+3552 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+3554 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+3570 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+3571 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+684  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 19260 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+691  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+693  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2893 [main] INFO  com.concepts.spring.Application - Started Application in 2.553 seconds (JVM running for 3.409)
+6686 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+6687 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+6690 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+6740 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+6741 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+626  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 15700 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+628  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+629  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2479 [main] INFO  com.concepts.spring.Application - Started Application in 2.159 seconds (JVM running for 2.906)
+8056 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+8057 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+8058 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+8089 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+8089 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+660  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 22488 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+665  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+665  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3009 [main] INFO  com.concepts.spring.Application - Started Application in 2.69 seconds (JVM running for 3.474)
+11608 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+34119 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+34122 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+34193 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+34194 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+521  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 21592 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+523  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+524  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2383 [main] INFO  com.concepts.spring.Application - Started Application in 2.13 seconds (JVM running for 2.739)
+686  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 21876 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+690  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+691  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2794 [main] INFO  com.concepts.spring.Application - Started Application in 2.416 seconds (JVM running for 3.326)
+5565 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+5566 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+5567 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+5599 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+5599 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+600  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 14140 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+601  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+602  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2305 [main] INFO  com.concepts.spring.Application - Started Application in 1.981 seconds (JVM running for 2.727)
+7393 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+7393 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+7395 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+7421 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+7422 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+104922 [http-nio-8080-exec-5] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+104923 [http-nio-8080-exec-5] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+924  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 22168 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+927  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+928  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2616 [main] INFO  com.concepts.spring.Application - Started Application in 2.2 seconds (JVM running for 3.179)
+10566 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+10567 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+10568 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+10580 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+10581 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+13551 [http-nio-8080-exec-5] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+13552 [http-nio-8080-exec-5] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+833  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 12944 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+836  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+836  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3585 [main] INFO  com.concepts.spring.Application - Started Application in 3.133 seconds (JVM running for 5.602)
+4610 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+4611 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+4616 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+4642 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+4642 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+895  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 19204 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+899  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+900  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3406 [main] INFO  com.concepts.spring.Application - Started Application in 2.94 seconds (JVM running for 4.37)
+6758 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+6758 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+6760 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+6795 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+6795 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+70812 [http-nio-8080-exec-5] TRACE c.c.s.controller.ParserController - file dto ingested
+70813 [http-nio-8080-exec-5] TRACE c.c.s.services.FileParserService - processing fileDto
+70813 [http-nio-8080-exec-5] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+113947 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.concepts.spring.exceptions.InvalidFileParserContentException: O JSon do conteúdo é inválido] with root cause
+com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 1118 path $.WRITE_FILE
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1564)
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:531)
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:426)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:700)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:723)
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:698)
+	at com.google.gson.internal.Streams.parse(Streams.java:48)
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:85)
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:60)
+	at com.google.gson.JsonParser.parseString(JsonParser.java:47)
+	at com.concepts.spring.services.parser.JSonParser.buildTree(JSonParser.java:30)
+	at com.concepts.spring.services.FileParserService.parse(FileParserService.java:23)
+	at com.concepts.spring.controller.ParserController.ingestJSon(ParserController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+733  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 21352 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+736  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+737  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2721 [main] INFO  com.concepts.spring.Application - Started Application in 2.362 seconds (JVM running for 3.467)
+570  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 20088 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+573  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+573  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2303 [main] INFO  com.concepts.spring.Application - Started Application in 2.019 seconds (JVM running for 2.728)
+581  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 21196 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+588  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+589  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3063 [main] INFO  com.concepts.spring.Application - Started Application in 2.771 seconds (JVM running for 3.653)
+449  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 19792 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+451  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+452  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1987 [main] INFO  com.concepts.spring.Application - Started Application in 1.779 seconds (JVM running for 2.31)
+21242 [http-nio-8080-exec-8] TRACE c.c.s.controller.ParserController - file dto ingested
+21243 [http-nio-8080-exec-8] TRACE c.c.s.services.FileParserService - processing fileDto
+21251 [http-nio-8080-exec-8] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+21274 [http-nio-8080-exec-8] TRACE c.c.s.r.MemoryFileRepository - node saved
+21275 [http-nio-8080-exec-8] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+554  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 21468 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+556  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+557  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1981 [main] INFO  com.concepts.spring.Application - Started Application in 1.692 seconds (JVM running for 2.347)
+704  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 11492 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+706  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+707  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2526 [main] INFO  com.concepts.spring.Application - Started Application in 2.126 seconds (JVM running for 3.134)
+2996 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+2997 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+2998 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+3011 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+3011 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+652  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 21580 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+656  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+657  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+3132 [main] INFO  com.concepts.spring.Application - Started Application in 2.851 seconds (JVM running for 3.585)
+6513 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+6514 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+6516 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+6540 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+6541 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+499  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 6060 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+501  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+501  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1779 [main] INFO  com.concepts.spring.Application - Started Application in 1.537 seconds (JVM running for 2.112)
+13000 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+13001 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+13004 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+13017 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+13018 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+485  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 1412 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+487  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+487  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1922 [main] INFO  com.concepts.spring.Application - Started Application in 1.708 seconds (JVM running for 2.244)
+432  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 22236 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+434  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+434  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1700 [main] INFO  com.concepts.spring.Application - Started Application in 1.491 seconds (JVM running for 2.014)
+458  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 2796 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+462  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+463  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1713 [main] INFO  com.concepts.spring.Application - Started Application in 1.492 seconds (JVM running for 2.091)
+5271 [http-nio-8080-exec-4] TRACE c.c.s.controller.ParserController - file dto ingested
+5273 [http-nio-8080-exec-4] TRACE c.c.s.services.FileParserService - processing fileDto
+5275 [http-nio-8080-exec-4] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+5281 [http-nio-8080-exec-4] TRACE c.c.s.r.MemoryFileRepository - node saved
+5283 [http-nio-8080-exec-4] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
