@@ -1,0 +1,8 @@
+1956 [main] INFO  c.concepts.spring.ApplicationTests - Starting ApplicationTests on Santana with PID 10144 (started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+1970 [main] DEBUG c.concepts.spring.ApplicationTests - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+1971 [main] INFO  c.concepts.spring.ApplicationTests - No active profile set, falling back to default profiles: default
+5071 [main] INFO  c.concepts.spring.ApplicationTests - Started ApplicationTests in 3.576 seconds (JVM running for 6.494)
+662  [main] INFO  c.concepts.spring.ApplicationTests - Starting ApplicationTests on Santana with PID 13864 (started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+666  [main] DEBUG c.concepts.spring.ApplicationTests - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+668  [main] INFO  c.concepts.spring.ApplicationTests - No active profile set, falling back to default profiles: default
+2587 [main] INFO  c.concepts.spring.ApplicationTests - Started ApplicationTests in 2.146 seconds (JVM running for 3.194)

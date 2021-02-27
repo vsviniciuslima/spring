@@ -1,6 +1,6 @@
 package com.concepts.spring.services.actions;
 
-import com.concepts.spring.model.ActionType;
+import com.concepts.spring.enums.ActionType;
 import com.concepts.spring.services.actions.implementations.ConcatValueAction;
 import com.concepts.spring.services.actions.implementations.LogInfoAction;
 import com.concepts.spring.services.actions.implementations.WriteTxtFileAction;

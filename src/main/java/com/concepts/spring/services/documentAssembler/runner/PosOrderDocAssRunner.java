@@ -5,9 +5,8 @@ import com.concepts.spring.model.entity.Leaf;
 import com.concepts.spring.model.entity.Node;
 import com.concepts.spring.services.actions.ActionStrategy;
 import com.concepts.spring.services.documentAssembler.context.DocAssRunnerContext;
-import com.concepts.spring.services.documentAssembler.context.DocAssRunnerContextEnum;
+import com.concepts.spring.enums.DocAssRunnerContextEnum;
 import com.concepts.spring.services.documentAssembler.context.DocAssRunnerContextFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 

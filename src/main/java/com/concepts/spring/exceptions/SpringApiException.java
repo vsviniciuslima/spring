@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 
 
 public abstract class SpringApiException extends RuntimeException {
-    
+
     @Getter
     HttpStatus httpStatus;
 
@@ -23,9 +23,4 @@ public abstract class SpringApiException extends RuntimeException {
         super(msg, throwable);
         this.httpStatus = status;
     }
-
-/*    public HttpStatus getHttpStatus() {
-        return this.httpStatus;
-    }*/
-
 }

@@ -27,6 +27,8 @@ public class WriteTxtFileAction extends AbstractAction {
 
         String output = getContext().getOutput();
 
+        /*
+
         try{
             createFile(fileName);
             writeFile (fileName, output);
@@ -35,6 +37,8 @@ public class WriteTxtFileAction extends AbstractAction {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        */
     }
 
     public void createFile(String fileName) throws IOException {

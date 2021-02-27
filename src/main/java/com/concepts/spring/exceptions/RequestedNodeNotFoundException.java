@@ -1,6 +1,5 @@
 package com.concepts.spring.exceptions;
 
-import com.concepts.spring.exceptions.SpringApiException;
 import org.springframework.http.HttpStatus;
 
 public class RequestedNodeNotFoundException extends SpringApiException {

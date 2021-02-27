@@ -1,4 +1,4 @@
-package com.concepts.spring.model;
+package com.concepts.spring.enums;
 
 public enum FileType {
     YAML,
