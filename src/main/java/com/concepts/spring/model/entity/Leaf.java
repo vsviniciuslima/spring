@@ -1,6 +1,6 @@
 package com.concepts.spring.model.entity;
 
-import com.concepts.spring.model.ActionType;
+import com.concepts.spring.enums.ActionType;
 import com.concepts.spring.services.documentAssembler.runner.DocAssRunner;
 import lombok.Setter;
 
