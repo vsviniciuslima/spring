@@ -1,5 +1,7 @@
 package com.concepts.spring.services.documentAssembler.context;
 
+import com.concepts.spring.enums.DocAssRunnerContextEnum;
+
 public class DocAssRunnerContextFactory {
     public static DocAssRunnerContext build(DocAssRunnerContextEnum context) {
         if(context == null) {
