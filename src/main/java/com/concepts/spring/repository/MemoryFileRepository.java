@@ -19,16 +19,18 @@ public class MemoryFileRepository implements TreeRepository {
     @Override
     public boolean save(Node node) {
 
+        getStore().put(node.getId(), node);
+
         log.trace("node saved");
         log.info("saved node id: " + node.getId());
 
-        getStore().put(node.getId(), node);
         return true;
+
     }
 
     @Override
     public Node find(String id) {
-        return store.get(id);
+        return getStore().get(id);
     }
 
     @Override

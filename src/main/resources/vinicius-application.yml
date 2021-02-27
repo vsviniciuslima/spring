@@ -1,0 +1,10 @@
+logging:
+  level:
+    root: INFO
+  file:
+    name: appLog.log
+server:
+  por: 8080
+
+user:
+  name: Vinicius

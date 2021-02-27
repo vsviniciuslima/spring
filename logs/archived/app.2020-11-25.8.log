@@ -1,0 +1,45 @@
+1961 [main] INFO  com.concepts.spring.Application - Started Application in 1.695 seconds (JVM running for 2.301)
+5118 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+5119 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+5121 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+5129 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+5129 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+504  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 17004 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+511  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+512  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1854 [main] INFO  com.concepts.spring.Application - Started Application in 1.605 seconds (JVM running for 2.206)
+4850 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+4850 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+4851 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+4858 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+4859 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+44631 [http-nio-8080-exec-7] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+44632 [http-nio-8080-exec-7] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+58007 [http-nio-8080-exec-10] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+58007 [http-nio-8080-exec-10] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+467  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 7180 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+469  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+470  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1815 [main] INFO  com.concepts.spring.Application - Started Application in 1.577 seconds (JVM running for 2.118)
+5154 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+5154 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+5155 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+5162 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+5162 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+6792 [http-nio-8080-exec-3] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+6792 [http-nio-8080-exec-3] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+449  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 7184 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+452  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+452  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+1742 [main] INFO  com.concepts.spring.Application - Started Application in 1.528 seconds (JVM running for 2.053)
+4282 [http-nio-8080-exec-2] TRACE c.c.s.controller.ParserController - file dto ingested
+4283 [http-nio-8080-exec-2] TRACE c.c.s.services.FileParserService - processing fileDto
+4284 [http-nio-8080-exec-2] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+4291 [http-nio-8080-exec-2] TRACE c.c.s.r.MemoryFileRepository - node saved
+4292 [http-nio-8080-exec-2] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+6270 [http-nio-8080-exec-3] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+6271 [http-nio-8080-exec-3] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+507  [main] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 19504 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+509  [main] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+510  [main] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+2217 [main] INFO  com.concepts.spring.Application - Started Application in 1.989 seconds (JVM running for 2.537)

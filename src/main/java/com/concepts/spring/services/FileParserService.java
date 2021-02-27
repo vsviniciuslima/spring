@@ -4,6 +4,7 @@ import com.concepts.spring.model.dto.FileDto;
 import com.concepts.spring.model.entity.Node;
 import com.concepts.spring.repository.TreeRepository;
 import com.concepts.spring.services.parser.ParserStrategy;
+import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,7 +23,6 @@ public class FileParserService {
         Node node = parserStrategy.getStrategy(fileDto.getType()).buildTree(fileDto.getContent().toString());
 
         treeRepository.save(node);
-
     }
 
     @Autowired

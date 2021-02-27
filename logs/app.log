@@ -1,11 +1,11 @@
-[2m2020-11-18 00:33:58.219[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.spring.controller.ParserController  [0;39m [2m:[0;39m file dto ingested
-[2m2020-11-18 00:33:58.224[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.spring.services.FileParserService   [0;39m [2m:[0;39m processing fileDto
-[2m2020-11-18 00:33:58.225[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.spring.services.parser.JSonParser   [0;39m [2m:[0;39m json parser accessed
-[2m2020-11-18 00:33:58.244[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.s.repository.MemoryFileRepository   [0;39m [2m:[0;39m node saved
-[2m2020-11-18 00:33:58.245[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.c.s.repository.MemoryFileRepository   [0;39m [2m:[0;39m saved node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
-[2m2020-11-18 00:34:02.251[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.c.s.c.DocumentAssemblerController     [0;39m [2m:[0;39m document assembler runner started
-[2m2020-11-18 00:34:02.252[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.c.s.services.DocumentAssemblerService [0;39m [2m:[0;39m processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
-[2m2020-11-18 00:34:03.442[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.c.s.c.DocumentAssemblerController     [0;39m [2m:[0;39m document assembler runner started
-[2m2020-11-18 00:34:03.443[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.c.s.services.DocumentAssemblerService [0;39m [2m:[0;39m processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
-[2m2020-11-18 00:34:04.248[0;39m [32mTRACE[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.c.s.c.DocumentAssemblerController     [0;39m [2m:[0;39m document assembler runner started
-[2m2020-11-18 00:34:04.249[0;39m [32m INFO[0;39m [35m10312[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.c.s.services.DocumentAssemblerService [0;39m [2m:[0;39m processed node id: b4190a0c-8ced-46e3-ba11-2655b1707ac4
+1839 [restartedMain] INFO  com.concepts.spring.Application - Starting Application on Santana with PID 20744 (C:\Users\vsvin\IdeaProjects\spring\target\classes started by sntnvi in C:\Users\vsvin\IdeaProjects\spring)
+1881 [restartedMain] DEBUG com.concepts.spring.Application - Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+1882 [restartedMain] INFO  com.concepts.spring.Application - No active profile set, falling back to default profiles: default
+4428 [restartedMain] INFO  com.concepts.spring.Application - Started Application in 3.457 seconds (JVM running for 6.085)
+105950 [http-nio-8080-exec-1] TRACE c.c.s.controller.ParserController - file dto ingested
+105951 [http-nio-8080-exec-1] TRACE c.c.s.services.FileParserService - processing fileDto
+105955 [http-nio-8080-exec-1] TRACE c.c.s.services.parser.JSonParser - JSon Parser Accessed
+105978 [http-nio-8080-exec-1] TRACE c.c.s.r.MemoryFileRepository - node saved
+105978 [http-nio-8080-exec-1] INFO  c.c.s.r.MemoryFileRepository - saved node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
+109308 [http-nio-8080-exec-3] TRACE c.c.s.c.DocumentAssemblerController - document assembler runner started
+109308 [http-nio-8080-exec-3] INFO  c.c.s.s.DocumentAssemblerService - processed node id: e5a4681d-9d7e-446d-b6a3-b076f4d2eb97
